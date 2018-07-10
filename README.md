@@ -13,30 +13,51 @@ For each type of analysis think about:
 ### Demand Forecasting
 Forecast volumes of sales, inventory needed, etc.
 * [Rossman](https://www.kaggle.com/c/rossmann-store-sales) - Supermarket sales forecasting
-### Predicting Lifetime Value (LTV)
+* [Online Product Sales](https://www.kaggle.com/c/online-sales/data) - self-help product sales forecasting
+### Predicting Lifetime Value / Recency-Frequency Matrix
 Identify the most lucrative and loyal segments of your customers
-### Churn / Up-sell
+* [Lifetimes](https://github.com/CamDavidsonPilon/lifetimes) - Synthetic data and library for calculating CLV
+* [CDNow](http://brucehardie.com/datasets/) - CDNow transaction records
+### Churn / Up-sell 
 Identify characteristics and timing of customer churns/upgrades in order to prevent/encourage them
+* [KKBox's Churn Prediction Challenge](https://www.kaggle.com/c/kkbox-churn-prediction-challenge/data)
 ### Customer Segmentation
 Identify main customer clusters and their characteristics
-### Category Tree
+* [Instacart Market Basket Analysis](https://www.kaggle.com/c/instacart-market-basket-analysis)
+* [Online Retail Dataset](https://archive.ics.uci.edu/ml/datasets/Online+Retail)
+* [Loyal Customer Prediction](https://www.kaggle.com/c/loyal-customer-prediction/data) - new customers from 11/11 event on Tmall
+### Product Grouping / Category Tree
 Group products together in the most reasonable category trees
-### Cross-selling / Recommendation
+* [Instacart Market Basket Analysis](https://www.kaggle.com/c/instacart-market-basket-analysis)
+* [Online Retail Dataset](https://archive.ics.uci.edu/ml/datasets/Online+Retail)
+### Cross-selling / Recommendation / Market Basket Analysis
 Identify which products a customer is going to buy based on past purchases
+#### Explicit Ratings
 * [MovieLens](https://movielens.org/) - Movie recommendation dataset
-### Channel Optimization
-Predict optimal portfolio for your ads spending
-### Reactivation
-Identify which customers and how to reactivate them and make them buy from you again
+* [Jester](http://eigentaste.berkeley.edu/) - Joke recommendation dataset
+* [Book-Crossings](http://www2.informatik.uni-freiburg.de/~cziegler/BX/) - Book recommendation dataset
+* [HetRec](https://grouplens.org/datasets/hetrec-2011/) - Music recommendation dataset
+#### Implicit Ratings
+* [Instacart Market Basket Analysis](https://www.kaggle.com/c/instacart-market-basket-analysis)
+* [WikiLens](https://grouplens.org/datasets/wikilens/) - Wiki edits dataset
+* [OpenStreetMap](https://planet.openstreetmap.org/planet/full-history/) - OpenStreetMap edits dataset
+### Channel Attribution and Optimization
+Allocate credits fairly to all ads channels and have portfolio for your ads spending
+* [AnalyzeCore](https://analyzecore.com/2016/08/03/attribution-model-r-part-1/) - Synthetic data and attribution models
+### Ad Optimization
+Predict and price impressions, clicks, conversions or any performance metrics for ads
+* [Avazu Click-Through Rate Prediction](https://www.kaggle.com/c/avazu-ctr-prediction) - Mobile ads click-through-rate prediction
 ### Dynamic Pricing
 Optimal price for growth, profit, customer retention, etc.
+* [AWS Spot Pricing Market](https://www.kaggle.com/noqcks/aws-spot-pricing-market/home)
 ### Store Layout Optimization
 Optimal store/website layout for growth, profit, customer retention, etc.
 ### Customer Feedback
 Text classification to determine customer feedbacks/sentiment about your products
-* [IMDb](https://www.imdb.com/interfaces/) - Movie ratings
+* [IMDb](https://www.imdb.com/interfaces/) - Movie reviews
 * [Amazon Reviews](http://jmcauley.ucsd.edu/data/amazon/)
-* [Wongnai Challenge](https://www.kaggle.com/c/wongnai-challenge-review-rating-prediction) - Restaurant ratings
+* [Yelp Open Dataset](https://www.yelp.com/dataset) - Yelp reviews
+* [Wongnai Challenge](https://www.kaggle.com/c/wongnai-challenge-review-rating-prediction) - Restaurant reviews
 
 ## Customer Support
 ### Question Answering
@@ -48,6 +69,7 @@ Predict wait time based on customer history, time of day, call volumes, products
 ## Human Resources
 ### Resume screening
 Score candidates based on resumes and internal records
+* [DonorsChoose.org Application Screening](https://www.kaggle.com/c/donorschoose-application-screening)
 ### Employee Churn
 Predicts which employees are most likely to leave
 ### Training recommendation
@@ -99,6 +121,7 @@ Predict consumer reaction to policy price movement
 ### Credit Scoring / Loan Approval
 Predict which customers are going to default
 * [Statlog (German Credit Data) Data Set](https://archive.ics.uci.edu/ml/datasets/statlog+(german+credit+data))
+* [Home Credit Default Risk](https://www.kaggle.com/c/home-credit-default-risk)
 ### Portfolio Optimization
 Optimize portfolio of assets according to risks and returns
 ### Automated Trading
@@ -147,3 +170,4 @@ Score essays based on past pieces
 ## Utilities
 ### Distribution Network Optimization
 Optimize distribution networks of electricity, water, etc.
+* [Individual household electric power consumption Data Set](https://archive.ics.uci.edu/ml/datasets/Individual+household+electric+power+consumption)
