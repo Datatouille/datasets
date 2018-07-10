@@ -47,6 +47,10 @@ Allocate credits fairly to all ads channels and have portfolio for your ads spen
 ### Ad Optimization
 Predict and price impressions, clicks, conversions or any performance metrics for ads
 * [Avazu Click-Through Rate Prediction](https://www.kaggle.com/c/avazu-ctr-prediction) - Mobile ads click-through-rate prediction
+* [Avito Demand Prediction Challenge](https://www.kaggle.com/c/avito-demand-prediction) - Predict demand for an online classified ad
+### Ad Fraud
+Detect ad click/install frauds
+* [TalkingData AdTracking Fraud Detection Challenge](https://www.kaggle.com/c/talkingdata-adtracking-fraud-detection/data) - Can you detect fraudulent click traffic for mobile app ads?
 ### Dynamic Pricing
 Optimal price for growth, profit, customer retention, etc.
 * [AWS Spot Pricing Market](https://www.kaggle.com/noqcks/aws-spot-pricing-market/home)
@@ -58,6 +62,7 @@ Text classification to determine customer feedbacks/sentiment about your product
 * [Amazon Reviews](http://jmcauley.ucsd.edu/data/amazon/)
 * [Yelp Open Dataset](https://www.yelp.com/dataset) - Yelp reviews
 * [Wongnai Challenge](https://www.kaggle.com/c/wongnai-challenge-review-rating-prediction) - Restaurant reviews
+* [OpinRank Review Dataset](https://archive.ics.uci.edu/ml/datasets/OpinRank+Review+Dataset) - TripAdvisor and Edmunds Reviews
 
 ## Customer Support
 ### Question Answering
@@ -72,8 +77,9 @@ Score candidates based on resumes and internal records
 * [DonorsChoose.org Application Screening](https://www.kaggle.com/c/donorschoose-application-screening)
 ### Employee Churn
 Predicts which employees are most likely to leave
-### Training recommendation
-Recommend specific trainings based of performance review data
+* [SAS Employee Turnover](http://shell.cas.usf.edu/~pspector/sasdir/datasets.html) - Synthetic employee churn dataset
+* [IBM HR Employee Attrition and Performance](https://www.ibm.com/communities/analytics/watson-analytics-blog/hr-employee-attrition/) - Synthetic employee churn dataset
+* [Employee Attrition] - Synthetic employee churn dataset
 
 ## Healthcare
 ### Medical Image Classification
@@ -99,40 +105,53 @@ Classify patients according to their initial complaints
 ### Hospital Operations Management
 Optimize/predict operating theatre & bed occupancy based on initial patient visits
 * [Healthcare in Washington](https://www.doh.wa.gov/DataandStatisticalReports/HealthcareinWashington/HospitalandPatientData)
+* [Mini Heritage Health Prize](https://github.com/jiunjiunma/heritage-health-prize) - Processed version of [Heritage Health Prize dataset](https://www.kaggle.com/c/hhp)
 ### Real-time Patient Monitoring
 Activity monitoring of patients
+* [OPPORTUNITY](https://archive.ics.uci.edu/ml/datasets/OPPORTUNITY+Activity+Recognition) - Dataset for Human Activity Recognition from Wearable, Object, and Ambient Sensors
 * [PAMAP2](https://archive.ics.uci.edu/ml/datasets/PAMAP2+Physical+Activity+Monitoring) - Physical Activity Monitoring Data Set 
-### Physician Attribution
-Attribute credits to physicians fairly
 ### Survival Analysis
 Predict survival rates of patients
+* [Haberman's Survival Data Set](https://www.kaggle.com/gilsousa/habermans-survival-data-set) - Survival of patients who had undergone surgery for breast cancer
 ### Dosage Effectiveness
 Analyse effects of admitting different types and dosage of medication for a disease
+
+## Media
+### News Summary
+Generate short length descriptions of news articles.
+* [NEWS SUMMARY](https://www.kaggle.com/sunnysai12345/news-summary)
 
 ## Insurance
 ### Claim Prediction
 Predict timing and size of claims
+* [TSA Claims Database](https://www.kaggle.com/terminal-security-agency/tsa-claims-database/home)
+* [Allstate Claims Severity](https://www.kaggle.com/c/allstate-claims-severity)
 ### Claim Fraud
 Outlier detection for insurance claim fraud
-### Policy Price Sensitivity
-Predict consumer reaction to policy price movement
+### Policy Prediction
+Predict type of insurance
+* [Insurance Company Benchmark (COIL 2000) Data Set](https://archive.ics.uci.edu/ml/datasets/Insurance+Company+Benchmark+%28COIL+2000%29)
 
 ## Finance
-### Credit Scoring / Loan Approval
+### Credit Scoring / Loan Approval / Debt Recovery
 Predict which customers are going to default
 * [Statlog (German Credit Data) Data Set](https://archive.ics.uci.edu/ml/datasets/statlog+(german+credit+data))
+* [Statlog (Australian Credit Approval) Data Set](https://archive.ics.uci.edu/ml/datasets/Statlog+%28Australian+Credit+Approval%29)
 * [Home Credit Default Risk](https://www.kaggle.com/c/home-credit-default-risk)
+* [A Fin tech fraud transaction classification](https://www.kaggle.com/c/a-fin-tech-fraud-transaction-classification) - default prediction with anonymized features
 ### Portfolio Optimization
 Optimize portfolio of assets according to risks and returns
+* [quantmod](https://www.quantmod.com/) - library for financial modeling in R; APIs for downloading fundamental and technical data
+* [Stanford EE103](https://stanford.edu/class/ee103/portfolio.html) - Popular ETFs from 2006 to 2016
 ### Automated Trading
 Trade financial assets using automated models
+* [quantmod](https://www.quantmod.com/) - library for financial modeling in R; APIs for downloading fundamental and technical data
 * [Get Rich or Die Modelin'](https://datatouille.org/competition/) - Bitcoin trading signals
 ### Fraud Detection
-Identify fraudulent transactions and other outliers
-### Debt Recovery
-Predict the probablity a liability can be recovered given the characteristics of the borrower and the loan
-### Anti-Money Laundering
-Using machine learning and fuzzy matching to detect transactions that contradict AML legislation
+Identify fraudulent transactions and parties with outlier detection and network analysis
+* [Credit Card Fraud Detection](https://www.kaggle.com/mlg-ulb/creditcardfraud) - Anonymized features
+* [PaySim Synthetic Financial Datasets For Fraud Detection](https://www.kaggle.com/ntnu-testimon/paysim1)
+* [Bitcoin Transactions](http://www.vo.elte.hu/bitcoin/downloads.htm)
 
 ## Manufacturing
 ### Quality Control
@@ -146,26 +165,30 @@ Predict your products' rate and timing of failures
 Design new products
 * [Fashion MNIST](https://github.com/zalandoresearch/fashion-mnist) - Labeled fashion images
 
-## Geography
-### Satellite Image Classification
-* [SpaceNet](https://spacenetchallenge.github.io/datasets/datasetHomePage.html) - Annotated satellite images of buildings, roads and more
+## Agriculture, Geography and Environment
+### Yield Forecasting
+Forecast agricultural yields
+* [Honey Production In The USA (1998-2012)](https://www.kaggle.com/jessicali9530/honey-production)
+* [Agricuture Crops Production In india](https://www.kaggle.com/srinivas1/agricuture-crops-production-in-india)
+### Satellite Image Classification and Extraction
 * [Planet: Understanding the Amazon from Space](https://www.kaggle.com/c/planet-understanding-the-amazon-from-space)
-* [
-Dstl Satellite Imagery Feature Detection](https://www.kaggle.com/c/dstl-satellite-imagery-feature-detection)
+* [SpaceNet](https://spacenetchallenge.github.io/datasets/datasetHomePage.html) - Annotated satellite images of buildings and roads
+* [Dstl Satellite Imagery Feature Detection](https://www.kaggle.com/c/dstl-satellite-imagery-feature-detection)
+### Air Quality
+* [Italy Air Quality Data Set](https://archive.ics.uci.edu/ml/datasets/Air+Quality)
+### Wildlife Classification
+Classify wild animals
+* [North American Camera Trap Images (NACTI)](https://www.biorxiv.org/content/early/2018/06/14/346809) - images of trapped animals
 
 ## Real Estate
 ### Pricing
 Predict real estate values based on their characteristics
 * [Zillow’s Home Value Prediction (Zestimate)](https://www.kaggle.com/c/zillow-prize-1)
 
-## Environment
-### Wildlife Classification
-Classify wild animals
-* [North American Camera Trap Images (NACTI)](https://www.biorxiv.org/content/early/2018/06/14/346809) - images of trapped animals
-
 ## Education
 ### Automated Essay Scoring
 Score essays based on past pieces
+* [The Hewlett Foundation: Automated Essay Scoring](https://www.kaggle.com/c/asap-aes)
 
 ## Utilities
 ### Distribution Network Optimization
