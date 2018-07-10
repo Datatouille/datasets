@@ -9,17 +9,10 @@ For each type of analysis think about:
 * Is it a revenue leakage (“saves us money”) or a revenue growth (“makes us money”) problem?
 
 # Use Cases By Functions and Verticals
-## Sales
-### Lead prioritization
-Predict probability of closing each lead
-### Demand forecasting
-Forecast sales and inventory required
-
-## Logistics
-### Demand forecasting
-Forecast volumes at each node
-
 ## Marketing
+### Demand Forecasting
+Forecast volumes of sales, inventory needed, etc.
+* [Rossman](https://www.kaggle.com/c/rossmann-store-sales) - Supermarket sales forecasting
 ### Predicting Lifetime Value (LTV)
 Identify the most lucrative and loyal segments of your customers
 ### Churn / Up-sell
@@ -126,6 +119,9 @@ Find bottlenecks in manufacturing processes
 * [Mercedes-Benz Greener Manufacturing](https://www.kaggle.com/c/mercedes-benz-greener-manufacturing)
 ### Warranty Analytics
 Predict your products' rate and timing of failures
+### Design
+Design new products
+* [Fashion MNIST](https://github.com/zalandoresearch/fashion-mnist) - Labeled fashion images
 
 ## Geography
 ### Satellite Image Classification
@@ -138,6 +134,11 @@ Dstl Satellite Imagery Feature Detection](https://www.kaggle.com/c/dstl-satellit
 ### Pricing
 Predict real estate values based on their characteristics
 * [Zillow’s Home Value Prediction (Zestimate)](https://www.kaggle.com/c/zillow-prize-1)
+
+## Environment
+### Wildlife Classification
+Classify wild animals
+* [North American Camera Trap Images (NACTI)](https://www.biorxiv.org/content/early/2018/06/14/346809) - images of trapped animals
 
 ## Education
 ### Automated Essay Scoring
