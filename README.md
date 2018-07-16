@@ -1,5 +1,5 @@
 # awesome-datasets
-Curated datasets for machine learning tasks according to use cases adapted from a [now defunct article on Kaggle](https://www.pinterest.com/pin/541980136382090788/).
+Curated datasets for machine learning tasks according to use cases adapted from a [now defunct article on Kaggle](https://www.pinterest.com/pin/541980136382090788/). Also check out this [repo of winning solutions](https://www.kaggle.com/sudalairajkumar/winning-solutions-of-kaggle-competitions).
 
 For each type of analysis think about:
 * What problem does it solve and for who?
