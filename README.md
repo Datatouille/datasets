@@ -79,7 +79,7 @@ Score candidates based on resumes and internal records
 Predicts which employees are most likely to leave
 * [SAS Employee Turnover](http://shell.cas.usf.edu/~pspector/sasdir/datasets.html) - Synthetic employee churn dataset
 * [IBM HR Employee Attrition and Performance](https://www.ibm.com/communities/analytics/watson-analytics-blog/hr-employee-attrition/) - Synthetic employee churn dataset
-* [Employee Attrition] - Synthetic employee churn dataset
+* [Employee Attrition](https://www.kaggle.com/HRAnalyticRepository/employee-attrition-data) - Synthetic employee churn dataset
 
 ## Healthcare
 ### Medical Image Classification
