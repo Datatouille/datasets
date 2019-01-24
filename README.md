@@ -95,6 +95,8 @@ Classify medical images according to conditions
 * [NIH Chest X-rays](https://www.kaggle.com/nih-chest-xrays)
 * [HERLEV](http://mde-lab.aegean.gr/downloads/) - Pap-smear Database
 * [Stanford Tissue Microarray Database](https://tma.im/cgi-bin/home.pl)
+* [CheXPert](https://stanfordmlgroup.github.io/competitions/chexpert/)
+* [MIMIC-CXR](https://arxiv.org/abs/1901.07042)
 ### Readmission risk
 Predict risk of re-admittance based on patient attributes, medical history, diagnose & treatment
 * [Diabetes 130-US hospitals for years 1999-2008 Data Set](https://archive.ics.uci.edu/ml/datasets/Diabetes+130-US+hospitals+for+years+1999-2008)
